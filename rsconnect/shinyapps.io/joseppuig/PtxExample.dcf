@@ -1,0 +1,12 @@
+name: PtxExample
+title: PtxExample
+username:
+account: joseppuig
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2287297
+bundleId: 3142899
+url: https://joseppuig.shinyapps.io/PtxExample/
+when: 1589386862.58271
+asMultiple: FALSE
+asStatic: FALSE

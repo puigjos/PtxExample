@@ -1,13 +1,11 @@
 #' @import shiny
 app_ui <- function() {
-  tagList(
-    # Leave this function for adding external resources
-    golem_add_external_resources(),
-    # List the first level UI elements here 
-    fluidPage(
-      h1("PtxExample")
+  
+  shinydashboard::dashboardPage(
+    header = dashboard_header(),
+    sidebar = dashboard_Sidebar(),
+    body = dashboard_body()
     )
-  )
 }
 
 #' @import shiny

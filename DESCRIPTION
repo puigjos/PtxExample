@@ -7,6 +7,30 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    shiny, 
-    golem
-RoxygenNote: 6.1.0
+    shiny,
+    data.table,
+    PtxGenerator,
+    golem,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    pkgload,
+    shinydashboard,
+    readxl,
+    officer,
+    flextable,
+    lubridate,
+    bizdays,
+    ggplot2,
+    ggrepel,
+    timevis,
+    shinycssloaders,
+    tidyr
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
